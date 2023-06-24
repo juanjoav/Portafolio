@@ -1,0 +1,101 @@
+<main>
+  <article>
+    <section
+      class="section contact has-bg-image"
+      aria-labelledby="contact-label"
+      style="background-image: url('./assets/images/contact-bg.png')"
+    >
+      <div class="container">
+        <form action="" class="contact-form">
+          <h2 class="headline-sm" id="contact-label">Ponte en contacto</h2>
+          <p class="contact-text body-md">
+            Estare encantado de hablar contigo y ayudarte en lo que necesites.
+          </p>
+          <div class="wrapper">
+            <div>
+              <label for="name" class="label">Tu Nombre</label>
+              <input
+                type="text"
+                name="name"
+                id="name"
+                placeholder="Aquí va tu nombre *"
+                required
+                class="input-field"
+              />
+            </div>
+            <div>
+              <label for="email" class="label">Tu Email </label>
+              <input
+                type="email"
+                name="email"
+                id="email"
+                placeholder="Aquí va tu Email *"
+                required
+                class="input-field"
+              />
+            </div>
+          </div>
+          <label for="subject" class="label">Asunto</label>
+          <input
+            type="text"
+            name="subject"
+            id="subject"
+            placeholder="Aquí va el asunto *"
+            class="input-field"
+          />
+          <label for="message" class="label">Tu mensaje </label>
+          <textarea
+            name="message"
+            id="message"
+            placeholder="Aquí va tu mensaje *"
+            required
+            class="input-field"
+          ></textarea>
+          <a href="#" class="btn btn-tertiary">Enviar Mensaje</a>
+        </form>
+        <div class="contact-content">
+          <ul class="contact-list">
+            <li class="contact-item">
+              <div
+                class="item-icon"
+                style="background-color: hsl(177, 39%, 72%)"
+              >
+                <ion-icon name="call" aria-hidden="true"></ion-icon>
+              </div>
+              <div>
+                <p class="label-lg">Telefono</p>
+                <a href="tel:+573108125035" class="body-lg">+57 3108125035</a>
+              </div>
+            </li>
+            <li class="contact-item">
+              <div
+                class="item-icon"
+                style="background-color: hsl(41, 99%, 64%)"
+              >
+                <ion-icon name="mail" aria-hidden="true"></ion-icon>
+              </div>
+              <div>
+                <p class="label-lg">Mail</p>
+                <a href="tel:info@domainname.com" class="body-lg"
+                  >juanjoav010@gmail.com</a
+                >
+              </div>
+            </li>
+            <li class="contact-item">
+              <div
+                class="item-icon"
+                style="background-color: hsl(19, 97%, 85%)"
+              >
+                <ion-icon name="location" aria-hidden="true"></ion-icon>
+              </div>
+              <div>
+                <p class="label-lg">Mi residencia</p>
+                <address class="body-lg">Tunja, Colombia</address>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+  </article>
+</main>
